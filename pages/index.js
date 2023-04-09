@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 function HomePage() {
   return (
     <div>
       <h2>HomePage</h2>
       <ul>
         <li>
-          <a href="/blog/posts">Blog</a>
+          <Link href="/blog/posts">Blog</Link>
         </li>
       </ul>
     </div>
